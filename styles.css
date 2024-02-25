@@ -99,3 +99,20 @@ body {
         font-size: 2rem;
     }
 }
+.information{
+    padding-left: 44%;
+    font-size: 25px;
+}
+.carinformation{
+    padding-left: 39%;
+    font-size: 25px;
+}
+.info{
+    font-size: 25px;
+}
+#carbrand{
+    font-size: 25px;
+}
+#carmodel{
+    font-size: 25px;
+}
