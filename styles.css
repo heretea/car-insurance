@@ -100,11 +100,13 @@ body {
     }
 }
 .information{
-    padding-left: 44%;
+    justify-content: center;
+    display: flex;
     font-size: 25px;
 }
 .carinformation{
-    padding-left: 39%;
+    justify-content: center;
+    display: grid;
     font-size: 25px;
 }
 .info{
