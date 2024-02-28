@@ -99,22 +99,3 @@ body {
         font-size: 2rem;
     }
 }
-.information{
-    justify-content: center;
-    display: flex;
-    font-size: 25px;
-}
-.carinformation{
-    justify-content: center;
-    display: grid;
-    font-size: 25px;
-}
-.info{
-    font-size: 25px;
-}
-#carbrand{
-    font-size: 25px;
-}
-#carmodel{
-    font-size: 25px;
-}
