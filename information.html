@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Insurance</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="stylesinfo.css">
     </head>
     <body>
         <div class="nav">
@@ -24,35 +24,45 @@
         </div>
         <div class="information">
         <div>
-            Name<br><input type="" name="name" class="info"><br>
-            Adress<br><input type="text" name="Adress"class="info"><br>
-            Phone<br><input type="number" name="tel"class="info"><br>
-            email<br><input type= "email" name = "email"class="info"><br>
+            Name<br><input type="" name="name" class="cusinfo"><br>
+            Adress<br><input type="text" name="Adress"class="cusinfo"><br>
+            Phone<br><input type="number" name="tel"class="cusinfo"><br>
+            email<br><input type= "email" name = "email"class="cusinfo"><br>
         </div>
         </div>
         <br>
-        <div class="carinformation">
-            Car brand <select name="carbrand" id="carbrand">
+        <form action="" method="post">
+            <div class="carinformation" >
+                <span>Car brand <select name="carbrand" id="carbrand" required>
+                    <option value="">เลือกยี่ห้อรถยนต์</option>
+                    <option value="Ford">Ford,ฟอร์ด</option>
+                    <option value="Toyota">Toyota,โตโยต้า</option>
+                    <option value="Nissan">Nissan,นิสสัน</option>
+                    <option value="Isuzu">Isuzu,อิซูซุ</option>
+                </select>
+                Car model <select name="carmodel" id="carmodel" required>
+                <option value="">เลือกรุ่นรถยนต์</option>
                 <option value="Ford">Ford,ฟอร์ด</option>
                 <option value="Toyota">Toyota,โตโยต้า</option>
                 <option value="Nissan">Nissan,นิสสัน</option>
                 <option value="Isuzu">Isuzu,อิซูซุ</option>
+                </select>
+                </span>
+            </div><br>
+            <div class="carinformation" > 
+            <span>Years <select name="caryears" id="caryears" required>
+                <option value="">เลือกปีที่ออกรถยนต์</option>
+                <option value="y1">2021</option>
+                <option value="y2">2022</option>
+                <option value="y3">2023</option>
+                <option value="y4">2024</option>
             </select>
-            Car model<select name="carmodel" id="carmodel">
-                <option value="Ford">Ford,ฟอร์ด</option>
-                <option value="Toyota">Toyota,โตโยต้า</option>
-                <option value="Nissan">Nissan,นิสสัน</option>
-                <option value="Isuzu">Isuzu,อิซูซุ</option>
-            </select><br>
-            Years<select name="caryears" id="caryears">
-                <option value="Ford">Ford,ฟอร์ด</option>
-                <option value="Toyota">Toyota,โตโยต้า</option>
-                <option value="Nissan">Nissan,นิสสัน</option>
-                <option value="Isuzu">Isuzu,อิซูซุ</option>
-            </select>
-            
-            
-        </div>
+
+            </span>
+            </div> 
+            <div><button type="submit">เช็คประกันรถยนต์</button></div>
+        </form>
+        
         
     </body>
 </html>
