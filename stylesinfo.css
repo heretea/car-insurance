@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    position: relative;
+    display: flex;
+    background: #92C7CF;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: space-between;
+    height: 70px;
+}
+.logo{
+    margin: auto 20px;
+    font-size: 40px;
+}
+.nav ul{
+    display: flex;
+    margin: auto 0;
+}
+.nav li {
+    list-style: none;
+    margin-right: 15px;
+    font-size: 28px;
+}
+.nav a{
+    color: #000;
+    text-decoration: none;
+}
+.nav-menu {
+    display: flex;
+    background: #C3E7ED;
+    justify-content: right;
+    height: 70px;
+}
+.nav-menu ul{
+    display: flex;
+    margin: auto 0;
+    font-size: 28px;
+}
+.nav-menu li {
+    list-style: none;
+    margin-right: 15px;
+}
+.nav-menu a{
+    color: #000;
+    text-decoration: none;
+}
+.information{
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+}
+.carinformation{
+    justify-content: center;
+    display: grid;
+    font-size: 25px;
+}
+.cusinfo{
+    font-size: 25px;
+}
+#carbrand{
+    font-size: 25px;
+}
+#carmodel{
+    font-size: 25px;
+}
+#caryears{
+    font-size: 25px;
+}
