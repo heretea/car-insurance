@@ -46,44 +46,6 @@ body {
     color: #000;
     text-decoration: none;
 }
-.headerTitle{
-    display: flex;
-    background-color: #DFF4FD;
-    justify-content: center;
-}
-.textTitle{
-    font-size: 4rem;
-}
-.picbody {
-    display: flex;
-}
-.picbody img{
-    width: 100%;
-
-}
-.Description{
-    background-color: #92C7CF;
-    display: grid;
-}
-.textDescription{
-    padding: 60px;
-}
-.textH{
-    text-align: center;
-    font-size: 45px;
-}
-.textBody{
-    font-size: 30px;
-}
-.tableCI{
-    margin: auto;
-}
-.tableCI table{
-    border-radius: 30px;
-}
-.tableCI th{
-    border: 0 s #4EBAC9;
-}
 @media (max-width: 600px) {
     .nav{
         flex-direction: column;
@@ -95,7 +57,23 @@ body {
         align-items: center;
         height: auto;
     }
-    .textTitle{
-        font-size: 2rem;
-    }
+}
+.information{
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+}
+.carinformation{
+    justify-content: center;
+    display: grid;
+    font-size: 25px;
+}
+.info{
+    font-size: 25px;
+}
+#carbrand{
+    font-size: 25px;
+}
+#carmodel{
+    font-size: 25px;
 }
