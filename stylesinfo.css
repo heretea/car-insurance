@@ -46,55 +46,25 @@ body {
     color: #000;
     text-decoration: none;
 }
-.headerTitle{
-    display: flex;
-    background-color: #DFF4FD;
+.information{
     justify-content: center;
-}
-.textTitle{
-    font-size: 4rem;
-}
-.picbody {
     display: flex;
+    font-size: 25px;
 }
-.picbody img{
-    width: 100%;
-
-}
-.Description{
-    background-color: #92C7CF;
+.carinformation{
+    justify-content: center;
     display: grid;
+    font-size: 25px;
 }
-.textDescription{
-    padding: 60px;
+.cusinfo{
+    font-size: 25px;
 }
-.textH{
-    text-align: center;
-    font-size: 45px;
+#carbrand{
+    font-size: 25px;
 }
-.textBody{
-    font-size: 30px;
+#carmodel{
+    font-size: 25px;
 }
-.tableCI{
-    margin: auto;
+#caryears{
+    font-size: 25px;
 }
-.tableCI table{
-    border-radius: 30px;
-}
-.tableCI th{
-    border: 0 s #4EBAC9;
-}
-@media (max-width: 600px) {
-    .nav{
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-    }
-    .nav-menu{
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-    }
-    .textTitle{
-        font-size: 2rem;
-    }
