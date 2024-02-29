@@ -78,11 +78,20 @@ body {
 .tableCI{
     margin: auto;
 }
-.tableCI table{
-    border-radius: 30px;
+.tableCI{
+    border: 1px solid;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: var(--border);
+    overflow: hidden;
 }
 .tableCI th{
-    border: 0 s #4EBAC9;
+    background: #4EBAc9;
+    border: 1px solid;
+}
+.tableCI td{
+    border: 1px solid;
+    text-align: center;
 }
 @media (max-width: 600px) {
     .nav{
@@ -98,3 +107,4 @@ body {
     .textTitle{
         font-size: 2rem;
     }
+}
