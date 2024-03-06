@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Insurance</title>
+        <link rel="stylesheet" href="styleInfor.css">
+    </head>
+    <body>
+        <div class="nav">
+            <div class="logo"><a href="">Car Insurance<a></div>
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="register.html">register</a></li>
+            </ul>
+        </div>
+        <div class="nav-menu">
+            <ul>
+                <li><a href="#">เคลม</a></li>
+                <li><a href="information.html">ตรวจสอบกรมธรรม์</a></li>
+                <li><a href="#">ติดต่อเรา</a></li>
+            </ul>
+        </div>
+        <form action="" method="get" id="form1">
+        รหัสบัตรประชาชน: <input type="text" name="cus_id"><br>
+        ชื่อ: <input type="text" name="cus_name" ><br>
+        เบอร์โทร: <input type="text" name="cus_tel" ><br>
+        อีเมล: <input type="email" name="cus_email"><br>
+        ที่อยู่: <input type="text" name="cus_address"><br>
+        <div id = "out"></div>
+        <br><input type="button" id="sub" value="ลงทะเบียน"><br>
+    </form>
+    <script>
+        function fpost(){
+            var dat = $("#form1").serialize();
+            $.get("insert_cus.php",dat,success_fpost);
+        }
+        function success_fpost(data){
+            alert(data);
+            $("#out").html(data);
+        }
+        $().ready(function(){
+            $("#sub").click(fpost);
+        }
+        );
+    </script>
+    </body>
+
+</html>
