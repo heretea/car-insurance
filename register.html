@@ -35,6 +35,7 @@
     <script>
         function fpost(){
             var dat = $("#form1").serialize();
+            console.log(dat);
             $.get("insert_cus.php",dat,success_fpost);
         }
         function success_fpost(data){
