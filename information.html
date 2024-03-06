@@ -13,6 +13,7 @@
             <ul>
                 <li><a href="home.html">home</a></li>
                 <li><a href="#">about us</a></li>
+                <li><a href="register.html">register</a></li>
             </ul>
         </div>
         <div class="nav-menu">
@@ -22,6 +23,7 @@
                 <li><a href="#">ติดต่อเรา</a></li>
             </ul>
         </div>
+        <form action="" method="get" id = "form1">
         <div class="information">
         <div>
             Name<br><input type="" name="name" class="cusinfo"><br>
@@ -31,8 +33,7 @@
         </div>
         </div>
         <br>
-        <form action="" method="post">
-            <div class="carinformation" >
+        <div class="carinformation" >
                 <span>Car brand <select name="carbrand" id="carbrand" required>
                     <option value="">เลือกยี่ห้อรถยนต์</option>
                     <option value="Ford">Ford,ฟอร์ด</option>
@@ -49,7 +50,7 @@
                 </select>
                 </span>
             </div><br>
-            <div class="carinformation" > 
+        <div class="carinformation" > 
             <span>Years <select name="caryears" id="caryears" required>
                 <option value="">เลือกปีที่ออกรถยนต์</option>
                 <option value="y1">2021</option>
@@ -60,8 +61,9 @@
 
             </span>
             </div> 
-            <div><button type="submit">เช็คประกันรถยนต์</button></div>
+            <div><input type="button" id = "sub" value="ตรวจสอบกรมธรรม์"></div>
         </form>
+        
         
         
     </body>
